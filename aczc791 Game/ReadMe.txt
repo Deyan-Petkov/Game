@@ -1,1 +1,1 @@
-This project is based on 2D engine. In order to be executable you need to add(if is not already added) the CityEngine.jar library from the CityEnginee40 folder inside the main folder. 
+This project is based on 2D engine. In order to be executable you need to add(if it's not already added) the CityEngine.jar library from the CityEnginee40 folder inside the main folder. 
