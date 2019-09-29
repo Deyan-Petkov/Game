@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="game.controllers.ControlPanel">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="16" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="5">
+    <margin top="0" left="0" bottom="200" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="154" height="754"/>
+    </constraints>
+    <properties>
+      <background color="-10914533"/>
+      <font name="Ink Free" size="18" style="1"/>
+      <foreground color="-8864217"/>
+      <maximumSize width="2147483647" height="2147483647"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="e2de2" class="javax.swing.JButton" binding="pauseButton" default-binding="true">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="78" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13539060"/>
+          <foreground color="-4987348"/>
+          <text value="Pause "/>
+        </properties>
+      </component>
+      <component id="b6b85" class="javax.swing.JButton" binding="continueButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="81" height="12"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13539060"/>
+          <foreground color="-7678423"/>
+          <text value="Continue"/>
+        </properties>
+      </component>
+      <component id="98d87" class="javax.swing.JButton" binding="quitGameButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13539060"/>
+          <foreground color="-6887380"/>
+          <text value="Quit Game"/>
+        </properties>
+      </component>
+      <component id="1ae2d" class="javax.swing.JButton" binding="restartGameButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="105" height="19"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13539060"/>
+          <foreground color="-6887380"/>
+          <text value="Restart Game"/>
+        </properties>
+      </component>
+      <component id="b740b" class="javax.swing.JButton" binding="level1Button" default-binding="true">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15126719"/>
+          <foreground color="-13325351"/>
+          <hideActionText value="true"/>
+          <text value="Level 1"/>
+        </properties>
+      </component>
+      <component id="c378e" class="javax.swing.JButton" binding="level2Button" default-binding="true">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15126719"/>
+          <foreground color="-13325351"/>
+          <text value="Level 2"/>
+        </properties>
+      </component>
+      <component id="261b0" class="javax.swing.JButton" binding="level3Button" default-binding="true">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15126719"/>
+          <foreground color="-13325351"/>
+          <text value="Level 3"/>
+        </properties>
+      </component>
+      <component id="c71b5" class="javax.swing.JButton" binding="level4Button" default-binding="true">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15126719"/>
+          <foreground color="-13325351"/>
+          <hideActionText value="false"/>
+          <text value="Level 4"/>
+        </properties>
+      </component>
+      <component id="486" class="javax.swing.JButton" binding="saveAndQuitButton" default-binding="true">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Save And Quit"/>
+        </properties>
+      </component>
+      <component id="4c279" class="javax.swing.JButton" binding="resumeGameButton" default-binding="true">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Resume Game"/>
+        </properties>
+      </component>
+      <component id="4d64" class="javax.swing.JButton" binding="addUserButton" default-binding="true">
+        <constraints>
+          <grid row="14" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-4987348"/>
+          <text value="Add User"/>
+        </properties>
+      </component>
+      <component id="7a628" class="javax.swing.JComboBox" binding="comboBox1" default-binding="true">
+        <constraints>
+          <grid row="12" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <enabled value="true"/>
+          <model/>
+        </properties>
+      </component>
+      <component id="c89b6" class="javax.swing.JLabel" binding="Users">
+        <constraints>
+          <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="5" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Impact" size="20" style="0"/>
+          <labelFor value="7a628"/>
+          <text value="Users"/>
+        </properties>
+      </component>
+      <component id="7d3db" class="javax.swing.JTextPane" binding="textPane1" default-binding="true">
+        <constraints>
+          <grid row="13" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="15"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Comic Sans MS" size="16" style="1"/>
+        </properties>
+      </component>
+      <component id="44d30" class="javax.swing.JButton" binding="deleteUserButton" default-binding="true">
+        <constraints>
+          <grid row="15" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-4987348"/>
+          <foreground color="-1030850"/>
+          <text value="Delete User"/>
+        </properties>
+      </component>
+      <component id="bf652" class="javax.swing.JButton" binding="muteUnmuteButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13539060"/>
+          <foreground color="-7678423"/>
+          <text value="Mute/Unmute ♫"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
